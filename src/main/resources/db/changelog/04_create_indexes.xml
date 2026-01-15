@@ -4,7 +4,7 @@
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
 
-    <changeSet id="Create indexes" author="Aleksey Zhdanov">
+    <changeSet id="Create indexes" author="Maksim Kustkov">
         <createIndex tableName="clients" indexName="index_fio">
             <column name="lastname"/>
             <column name="firstname"/>

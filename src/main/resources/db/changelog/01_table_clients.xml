@@ -4,7 +4,7 @@
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
 
-    <changeSet id="Create and fill table clients" author="Aleksey Zhdanov">
+    <changeSet id="Create and fill table clients" author="Maksim Kustkov">
         <createTable tableName="clients" remarks="Клиенты">
             <column name="id" type="integer" remarks="Идентификатор клиента" autoIncrement="true">
                 <constraints nullable="false" primaryKey="true" primaryKeyName="clients_pk"/>
